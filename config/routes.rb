@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+Odot::Application.routes.draw do
   get 'todo_items/index'
 
   resources :todo_lists do
